@@ -1,0 +1,192 @@
+/* div{ 
+    width: 100%;         
+    max-width: 450px;   
+    height: auto;        
+    background-color: #f0f0f0;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+} */
+body{
+    font-family: Hanken Grotesk;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 90%;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    box-sizing: border-box;
+
+
+}
+.total-marks{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(252, 100%, 67%, 0.2));
+    margin: auto;
+    
+
+}
+.total-marks span{
+    position: relative;
+    top:20px;
+    font-size:12px;
+}
+.total-marks span strong{
+    font-size: 3em;
+    color: white;
+}
+.remark{
+    font-weight: bold;
+    font-size:1.2em;
+    color: white;
+}
+header h1{
+    font-size:0.9em;
+}
+section{
+    padding: 0 30px 0 30px;
+
+}
+section h1{
+    font-size: 0.9em;
+    padding: 12px;
+    padding-left: 0px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    padding: 16px;
+    border-radius: 35px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    
+    display: inline-block;
+    width:100%;
+    background-color: hsl(224, 30%, 27%);
+    padding: 16px;
+    border-radius: 10px;
+    position: relative;
+    left:-39px;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-bottom: 18px;
+
+}
+img{
+    position: relative;
+    top: 5px;
+    left: -5px;
+
+}
+.marks{
+    color: hsla(224, 30%, 27%, 0.5);
+    float: right;
+}
+.marks b{
+    color: hsl(224, 30%, 27%);
+}
+.firstitem{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+
+}
+.seconditem{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.thirditem{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.fourthitem{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+a:hover{
+    background-color: hsl(241, 81%, 54%);
+}
+
+@media screen and (min-width: 500px){
+    div{ 
+        width: 80%;         
+        max-width: 600px;   
+        max-height: 400px ;        
+        background-color: #f0f0f0;
+        box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        margin: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        position:relative;
+        top:150px;
+        
+        
+    }
+    header{
+        border-radius: 30px;
+        height: 100%;
+        padding: 20px 30px 20px 30px;
+        box-sizing: border-box;
+        float:left;
+        width: 47%;
+
+    }
+    section{
+        padding: 0 10px 0 10px;
+        float:right;
+        width: 50%;
+        box-sizing: border-box;
+    
+    }
+    .total-marks{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: relative;
+        top: 12px;
+
+    }
+    .total-marks span{
+        top: 35px;
+        font-size:19px;
+    }
+    ul li{
+        margin-bottom:10px;
+        padding:12px;
+    }
+    .remark{
+        position: relative;
+        top: 12px;
+
+    }
+    .summary{
+        padding:8px;
+        padding-top:16px;
+        line-height: 1.5;
+        
+    }
+    section h1{
+        padding:8px;
+    }
+    
+}
+
+
+
+
+
